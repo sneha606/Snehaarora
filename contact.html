@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #ffd000;
+    }
+
+    .topnav a {
+      float: right;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .homeimg img {
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      
+    }
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    .column p {
+      font-size: 20px;
+      text-align: justify;
+      line-height: 25px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column1 {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+	
+	.column11 {
+      float: left;
+      width: 33.33%;
+      padding: 20px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column1 {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px;
+      
+      border: 5px soild black;
+      /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .column1 img {
+      background-size: cover;
+      width: 100%;
+      height:auto;
+	  
+    }
+    .column1 button {
+      background-color: rgb(142, 208, 235);
+      font-size: 20px;
+      border-radius: 10px;
+    }
+    .column1 h3 {
+      padding-top: 30px;
+    }
+    #service {
+      width: 100%;
+      padding: 70px 0;
+      margin-top: 15vh;
+     
+      padding-top: 40px;
+      
+    }
+    .service-box {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: auto;
+    }
+    .single-service {
+      flex-basis: 48%;
+      text-align: center;
+      border-radius: 7px;
+      margin-bottom: 20px;
+      color: #000000;
+      position: relative;
+    }
+    .single-service img {
+      width: 100%;
+      border-radius: 7px;
+    }
+    .title-text h1{
+        padding-bottom: 30px;
+        font-size:40px;
+        text-align: center;
+    }
+    .columnn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+   /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnn img {
+    background-size: auto;
+    background-position: center;
+   
+   
+    width: 50vh;
+    height: 60vh;
+    border-radius: 30%;
+    
+}
+#team{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+
+}
+#form{
+    
+    text-align: center;
+    font-size: 30px;
+	margin-top:150px;
+}
+
+form{
+    text-align: center;
+   
+}
+
+.column555 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 400px;
+  /* Should be removed. Only for demonstration */
+}
+.column551 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 400px;
+margin-top:50px;  /* Should be removed. Only for demonstration */
+}
+form input{
+    width: 40%;
+    margin: 10px;
+    text-align: justify;
+    height: 5vh;
+}
+
+form label{
+    font-size: 20px;
+}
+#submit{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+}
+#servicen{
+    margin-top: 30vh;font-size: 35px;
+    text-align: center;
+
+}
+#aboutus{
+    margin-top: 12vh;font-size: 35px;
+    text-align: center;
+}
+    #footer{
+        background-color: #ffd000;
+        text-align: center;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 5px;
+		margin-top:200px;
+    }
+	#content{
+	text-align:center;
+	font-size:30px;
+
+	}
+	
+	#contactus{
+	text-align:center;
+	margin:50px;
+	}
+	#contactus h2{
+	color:chocolate;
+	font-size:40px;
+	}
+     
+  </style>
+  <body>
+   
+    <div class="topnav">
+       
+       
+      <a class="active" href="contact.html">Contact</a>
+	   <a href="team.html">Team</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="service.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Home</a>
+    </div>
+	<div id="contactus">
+	<h2>Contact Us</h2>
+	<p>All your feedback and comments are really important as they help us develop the best service we possibly can.We can be reached by phone or by email. We will do our best to get back to you within 24 hours.
+	</p>
+		<h2>Shri. Durga Computer Coaching Center
+</h2>
+<h3>Near Turi Bazaar,</h3>
+<h3>Mandir Devidawara,
+</h3>
+<h3>Firozepur City,
+
+</h3>
+<h3>PUNJAB:152002(Ind.)
+</h3>
+<h3>E-mail: yashdevgan60@gmail.com
+</h3>
+<h4>Mobile : 89680-81681,62805-52601
+</h4>
+<p>This is "Sh. Durga Computer Coaching Center". Pillar of Computer Education. Here you can achieve reliability and Quality of education. At this time you can learn no. of languageslike:VB , C , C++ , JAVA ,PYTHON WITH MYSQL , HTML , PHP. So don't waste time, Lets Start.
+</p>
+</div>
+    
+
+<h2 id="form"> User Information</h2>
+<form action="content" class="userform">
+    <label style="margin-right:700px;"for="fname">Name</label><br>
+    <input type="text" id="fname"><br>
+    <label style="margin-right:700px;for="email">Email</label><br>
+    <input type="text" id="email"><br>
+    <label style="margin-right:690px;for="number">Number</label><br>
+    <input type="text" id="number"><br>
+    <label style="margin-right:680px;for="comment">Comment</label><br>
+    <input type="text" id="comment"><br>
+    <input type="submit" id="submit" value="Submit">
+	
+
+
+
+	
+    
+
+
+</form>
+<footer id="footer">@ShriDurgaTechnicalProduction</footer>
+
+  </body>
+</html>
